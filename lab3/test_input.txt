@@ -1,0 +1,57 @@
+MAP myMap
+VAR r : INT = 0
+
+VAR front : INT = LOOK
+VAR left  : INT = 0
+VAR right : INT = 0
+
+
+RIGHT
+WHILE true DO
+
+    LEFT
+    left := LOOK
+    IF left GT 0 THEN
+        SET (r myMap 0 0)
+    ELSE
+        SET (r myMap 0 0)
+    FI
+    RIGHT
+
+    front := LOOK
+    IF front GT 0 THEN
+        SET (r myMap 0 0)
+    ELSE
+        SET (r myMap 0 0)
+    FI
+
+    RIGHT
+    right := LOOK
+    IF right GT 0 THEN
+        SET (r myMap 0 0)
+    ELSE
+        SET (r myMap 0 0)
+    FI
+    LEFT
+
+    IF left GT 0 THEN
+        LEFT
+        STEP
+        SET (r myMap 0 0)
+    ELSE
+        IF front GT 0 THEN
+            STEP
+            SET (r myMap 0 0)
+        ELSE
+            IF right GT 0 THEN
+                RIGHT
+                STEP
+                SET (r myMap 0 0)
+            ELSE
+                RIGHT
+                RIGHT
+            FI
+        FI
+    FI
+
+OD
