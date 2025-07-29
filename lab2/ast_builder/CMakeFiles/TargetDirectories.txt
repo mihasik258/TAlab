@@ -1,0 +1,3 @@
+/home/mike/asd/AT/lab_2/ast_builder/CMakeFiles/ast_builder.dir
+/home/mike/asd/AT/lab_2/ast_builder/CMakeFiles/edit_cache.dir
+/home/mike/asd/AT/lab_2/ast_builder/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libast_builder.a CMakeFiles/ast_builder.dir/ast_builder.cpp.o
+/usr/bin/ranlib libast_builder.a
